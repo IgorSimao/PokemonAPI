@@ -170,7 +170,6 @@ public class PokemonDAO {
     }
 
     public Pokemon getPokemonByNum(Integer num) {
-        EvolutionDAO evolutionDAO = new EvolutionDAO(null);
 
         String sql = "SELECT "
         		+ "    pokemons.id,"

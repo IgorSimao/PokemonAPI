@@ -1,12 +1,12 @@
 package br.com.igorsimao.pokemon.services;
 
-import java.util.ArrayList;
+
 import java.util.List;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import jakarta.ws.rs.QueryParam;
+
 
 import br.com.igorsimao.pokemon.DAO.PokemonDAO;
 import br.com.igorsimao.pokemon.model.Pokemon;
@@ -16,7 +16,7 @@ import jakarta.ws.rs.PathParam;
 import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
-import jakarta.ws.rs.core.Response.ResponseBuilder;
+
 
 @Path("/pokemons")
 public class PokemonsService {

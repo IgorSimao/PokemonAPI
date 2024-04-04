@@ -1,8 +1,6 @@
 package br.com.igorsimao.pokemon.util;
 
 
-import javax.enterprise.inject.New;
-
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
