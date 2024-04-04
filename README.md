@@ -2,12 +2,12 @@ Projeto desenvolvido com o intuíto de migração para o cargo de desenvolvedor 
 
 Principais Tecnologias utilizada no teste:
 Java: JDK 1.8;
-Container: Jersey 3.1.5
-Banco de dados: PostgreSQL 15
+Container: Jersey 3.1.5;
+Banco de dados: PostgreSQL 15;
 
 Rotas API:
 Método POST "pokemon", insere um novo pokemon com os dados do pokemon informados no body da requisição;
-Método GET "pokemon/NUMERO_DO_POKEMON" retorna os dados do pokemon com o número passado, campo "num" no arquivo pokedex.json, em formato JSON.
+Método GET "pokemon/NUMERO_DO_POKEMON" retorna os dados do pokemon com o número passado, campo "num" no arquivo pokedex.json, em formato JSON;
 Método PUT "pokemon/NUMERO_DO_POKEMON" atualiza o pokemon com o numero passado usando os dados do pokemon informados no body da requisição;
 Metodo DELETE "pokemon/NUMERO_DO_POKEMON" exclui o pokemon que possui o numero informado;
 Metodo GET "pokemons": Retorna todos os pokemons;
